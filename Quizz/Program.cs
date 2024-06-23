@@ -17,7 +17,7 @@
         string question2 = "How is 3+3:";
         string answer2 = "6";
         string question3 = "which OS is from microsoft";
-        string answer3 = "windows";
+        string answer3 = "Windows";
 
 
         int score = 0;

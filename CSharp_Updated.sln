@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditional
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizz", "Quizz\Quizz.csproj", "{29C48B48-74E2-4FF8-BCB3-36E48EE3227F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducctionToLoops", "IntroducctionToLoops\IntroducctionToLoops.csproj", "{CABD961B-815E-46F3-9FBB-44184359DDF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroducctionToLoops", "IntroducctionToLoops\IntroducctionToLoops.csproj", "{CABD961B-815E-46F3-9FBB-44184359DDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAventureGame", "TextAventureGame\TextAventureGame.csproj", "{90F28205-5DC2-4321-8510-3C4651BE1161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CABD961B-815E-46F3-9FBB-44184359DDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CABD961B-815E-46F3-9FBB-44184359DDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CABD961B-815E-46F3-9FBB-44184359DDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F28205-5DC2-4321-8510-3C4651BE1161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F28205-5DC2-4321-8510-3C4651BE1161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F28205-5DC2-4321-8510-3C4651BE1161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F28205-5DC2-4321-8510-3C4651BE1161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

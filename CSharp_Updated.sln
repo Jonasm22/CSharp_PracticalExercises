@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProjectCalculateAverage
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionsTo Arrays", "IntroductionsTo Arrays\IntroductionsTo Arrays.csproj", "{5E83306B-959F-4269-ADDE-37E135CD73E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeDimensionalsArray", "ThreeDimensionalsArray\ThreeDimensionalsArray.csproj", "{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeDimensionalsArray", "ThreeDimensionalsArray\ThreeDimensionalsArray.csproj", "{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToParameters", "IntroductionToParameters\IntroductionToParameters.csproj", "{63D6AA00-64B0-4240-98AA-5902CEBF5E0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D6AA00-64B0-4240-98AA-5902CEBF5E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D6AA00-64B0-4240-98AA-5902CEBF5E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D6AA00-64B0-4240-98AA-5902CEBF5E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D6AA00-64B0-4240-98AA-5902CEBF5E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroducctionToLoops", "Int
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAventureGame", "TextAventureGame\TextAventureGame.csproj", "{90F28205-5DC2-4321-8510-3C4651BE1161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProjectCalculateAverage", "MiniProjectCalculateAverage\MiniProjectCalculateAverage.csproj", "{7B4C7FF9-125F-4B64-9C7F-DAA63EA3428F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProjectCalculateAverage", "MiniProjectCalculateAverage\MiniProjectCalculateAverage.csproj", "{7B4C7FF9-125F-4B64-9C7F-DAA63EA3428F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionsTo Arrays", "IntroductionsTo Arrays\IntroductionsTo Arrays.csproj", "{5E83306B-959F-4269-ADDE-37E135CD73E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionsTo Arrays", "IntroductionsTo Arrays\IntroductionsTo Arrays.csproj", "{5E83306B-959F-4269-ADDE-37E135CD73E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeDimensionalsArray", "ThreeDimensionalsArray\ThreeDimensionalsArray.csproj", "{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5E83306B-959F-4269-ADDE-37E135CD73E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E83306B-959F-4269-ADDE-37E135CD73E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E83306B-959F-4269-ADDE-37E135CD73E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9A5C01-DEC0-4963-A5FD-FB4AD7FFA804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

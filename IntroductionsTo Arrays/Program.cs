@@ -38,7 +38,7 @@
 
         public static void StringsDay()
         {
-            string[] days = ["Mon", "Tue", "Wen", "Thurs", "Fri"];
+            string[] days = ["Mon", "Tue", "Wen", "Thurs", "Fri", "sam"];
             Console.WriteLine("Lenght = " + days.Length);
 
 

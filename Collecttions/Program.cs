@@ -9,7 +9,9 @@ namespace Collection
 
             //AddingAndRemoving();
             //Sorting();
-            Predicates();
+            // Predicates();
+            //Squaring();
+            MethodAny();
 
         }
 
@@ -94,12 +96,17 @@ namespace Collection
             {
                 Console.WriteLine(number);
             }
-
-           List<int> higherEqualTen =  numbers.FindAll(x => x >= 10);
+            // Define the predicate to check if the number is greater that 10
+            
+            
+            Predicate<int> isGreaterThanTen = x => x > 10;
+           //List<int> higherEqualTen =  numbers.FindAll(x => x >= 10);
+           // FindAll()
+           List<int> higherTen =  numbers.FindAll(isGreaterThanTen);
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("All number 10 and Higher ");
+            Console.WriteLine("All number 10 and Higher with 'FindAll methode and predicates'");
             Console.ResetColor();
-            foreach (var number in higherEqualTen) 
+            foreach (var number in higherTen) 
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(number);
@@ -118,9 +125,37 @@ namespace Collection
 
         }
 
+        public static int Squaring(int num1)
+        {
+            return num1 * num1;
+        }
 
 
 
+        public static void MethodAny()
+        {
+
+            List<int> numbers = [81, 22, 3, 99 ,21 ,5 ,9,10,18];
+            Console.WriteLine("Unsorted List.");
+
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+
+            bool hasLangeNumber = numbers.Any(x => x > 20);
+
+            if (hasLangeNumber)
+            {
+                Console.WriteLine("There are large numbers in the list");
+            }
+            else
+            {
+                Console.WriteLine("No large numbers in the list");
+            }
+         
+
+        }
 
 
 

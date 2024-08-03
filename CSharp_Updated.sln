@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeDimensionalsArray", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionToParameters", "IntroductionToParameters\IntroductionToParameters.csproj", "{63D6AA00-64B0-4240-98AA-5902CEBF5E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collecttions", "Collecttions\Collecttions.csproj", "{264C847F-D848-49EA-83CE-1D5A18859DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collecttions", "Collecttions\Collecttions.csproj", "{264C847F-D848-49EA-83CE-1D5A18859DC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsApp", "ListsApp\ListsApp.csproj", "{4DCD2FA2-8B62-425C-949E-1FE6C56CC3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullables", "Nullables\Nullables.csproj", "{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{264C847F-D848-49EA-83CE-1D5A18859DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264C847F-D848-49EA-83CE-1D5A18859DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264C847F-D848-49EA-83CE-1D5A18859DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCD2FA2-8B62-425C-949E-1FE6C56CC3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCD2FA2-8B62-425C-949E-1FE6C56CC3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCD2FA2-8B62-425C-949E-1FE6C56CC3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCD2FA2-8B62-425C-949E-1FE6C56CC3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

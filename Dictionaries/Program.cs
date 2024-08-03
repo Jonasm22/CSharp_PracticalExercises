@@ -1,12 +1,16 @@
-﻿namespace Dictionaries
+﻿using System.Globalization;
+
+namespace Dictionaries
 {
     internal class Program
     {
 
         static void Main(string[] args)
         {
-            // IntroductionDictionaries();
-            DictionariesOOP();
+            //IntroductionDictionaries();
+            //DictionariesOOP();
+            AlternativeWayToDictionaris();
+            //Homework();
         }
 
 
@@ -125,9 +129,50 @@
 
         }
 
+        public static void Homework()
+        {
+
+            Dictionary<string, List<int>> myDictionary = new Dictionary<string, List<int>>
+            {
+                {"numbers" , new List<int> {1,2,3 } }
+
+
+            };
+
+            foreach(int number in myDictionary["numbers"])
+            {
+                Console.Write(number + " ");
+            }
+
+            
+        }
 
 
 
+        public static void AlternativeWayToDictionaris()
+        {
+
+            var codes = new Dictionary<string, string>
+            {
+                ["NY"] = "new york" ,
+                ["CA"] = "california",
+                ["TX"] = "texas"
+            };
+                
+                
+            if(codes.TryGetValue("NY" , out string state))
+            {
+                Console.WriteLine(state);
+            }
+
+
+            foreach (var item in codes)
+            {
+                Console.WriteLine($"The stateclde is {item.Key}" +  $" and the state name is {item.Value}");
+            }
+        
+        
+        }
 
 
 

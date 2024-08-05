@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Dictionaries
 {
@@ -9,8 +10,9 @@ namespace Dictionaries
         {
             //IntroductionDictionaries();
             //DictionariesOOP();
-            AlternativeWayToDictionaris();
+            // AlternativeWayToDictionaris();
             //Homework();
+            PrintStudents();
         }
 
 
@@ -31,7 +33,7 @@ namespace Dictionaries
                 Salary = salary;
             }
 
-         
+
         }
 
 
@@ -52,7 +54,7 @@ namespace Dictionaries
             foreach (var item in employees)
             {
                 Console.WriteLine($"ID: {item.Key} named: {item.Value.Name} " +
-                    $" earns {item.Value.Salary} " + 
+                    $" earns {item.Value.Salary} " +
                     $" and is {item.Value.Age} years old!"
                     );
             }
@@ -139,12 +141,12 @@ namespace Dictionaries
 
             };
 
-            foreach(int number in myDictionary["numbers"])
+            foreach (int number in myDictionary["numbers"])
             {
                 Console.Write(number + " ");
             }
 
-            
+
         }
 
 
@@ -154,13 +156,13 @@ namespace Dictionaries
 
             var codes = new Dictionary<string, string>
             {
-                ["NY"] = "new york" ,
+                ["NY"] = "new york",
                 ["CA"] = "california",
                 ["TX"] = "texas"
             };
-                
-                
-            if(codes.TryGetValue("NY" , out string state))
+
+
+            if (codes.TryGetValue("NY", out string state))
             {
                 Console.WriteLine(state);
             }
@@ -168,14 +170,60 @@ namespace Dictionaries
 
             foreach (var item in codes)
             {
-                Console.WriteLine($"The stateclde is {item.Key}" +  $" and the state name is {item.Value}");
+                Console.WriteLine($"The stateclde is {item.Key}" + $" and the state name is {item.Value}");
             }
-        
-        
+
+
+        }
+
+        public class Student
+        {
+
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public int Grade { get; set; }
+
+            public Student(int id, string name, int grade)
+            {
+                Id = id;
+                Name = name;
+                Grade = grade;
+            }
+
         }
 
 
+        public static void PrintStudents()
+        {
+            Dictionary<string, Student> students = new Dictionary<string, Student>();
 
+            students.Add("1", new Student(01, "John", 85));
+            students.Add("2", new Student(02, "Alice", 90));
+            students.Add("3", new Student(03, "Bob", 78));
+
+            foreach (var item in students)
+            {
+
+                //Console.WriteLine($"{item.Key} Name: {item.Value.Name}, Id: {item.Value.Id}, Grade: {item.Value.Grade} "  );
+                Console.WriteLine($"{item.Key} Name: {item.Value.Name}, Id: {item.Value.Id}, Grade: {item.Value.Grade} "  );
+
+            }
+
+
+
+
+        }
 
     }
+
+
+
+
+
+
+
+
+
+
+
 }

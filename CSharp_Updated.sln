@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collecttions", "Collecttion
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsApp", "ListsApp\ListsApp.csproj", "{4DCD2FA2-8B62-425C-949E-1FE6C56CC3C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullables", "Nullables\Nullables.csproj", "{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullables", "Nullables\Nullables.csproj", "{5C6ABC2F-03B4-4991-BBBD-04CAE6CF3AD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceBaseClassLecture", "InheritanceBaseClassLecture\InheritanceBaseClassLecture.csproj", "{977D3346-C9C4-4E7F-8712-1251586FAAEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197B2EA9-0E56-43DE-8B64-05AA014FEE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977D3346-C9C4-4E7F-8712-1251586FAAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977D3346-C9C4-4E7F-8712-1251586FAAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977D3346-C9C4-4E7F-8712-1251586FAAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977D3346-C9C4-4E7F-8712-1251586FAAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

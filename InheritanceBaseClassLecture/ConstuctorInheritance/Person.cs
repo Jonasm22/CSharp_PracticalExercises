@@ -12,6 +12,7 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
         public string Name { get; private set; }
         public int Age { get; private set; }
 
+        public string Adreess { get; private set; }
 
         //  Base class constructor
         public Person( string name, int age)
@@ -19,8 +20,6 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
             Name = name;    
             Age = age;
             Console.WriteLine("Person Constructor called.");
-
-    
         }
     
     
@@ -46,7 +45,7 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
         {
             Jobtitle = jobtitle;
             EmployeeID = employeeID;
-            Console.WriteLine("Employee constructor called");
+           Console.WriteLine("Employee constructor called");
         }
 
 
@@ -60,6 +59,30 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
 
     }
 
+
+    public class Manager : Employee
+    {
+
+        public int TeamSize { get; private set; }
+
+        public Manager(string name, int age, string jobtitle, 
+            int employeeID , int teamSize) 
+            : base(name, age, jobtitle, employeeID)
+        {
+
+            TeamSize = teamSize;
+
+        }
+
+        public void DisplayManagerInfo()
+        {
+            DisplayEmployeeInfo();
+            Console.WriteLine($"Team Size {TeamSize}. ");
+            
+        }
+
+
+    }
 
 
 

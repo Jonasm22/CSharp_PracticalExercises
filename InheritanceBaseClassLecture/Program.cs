@@ -29,8 +29,14 @@
             joe.DisplayPersonInfo();
             Console.ReadLine();*/
             
-            Employee joe = new Employee("Joe" , 36 , "Sáke Rep" , 1234);
-            joe.DisplayEmployeeInfo();
+            //Employee joe = new Employee("Joe" , 36 , "Salee Rep" , 1234);
+           // joe.DisplayEmployeeInfo();
+
+            Manager carl = new Manager("Carl" , 45 , "Manager" , 5551 , 7);
+            carl.DisplayManagerInfo();
+
+            
+
             Console.ReadLine();
 
         }

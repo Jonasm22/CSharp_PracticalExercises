@@ -30,6 +30,15 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
 
         }
     
+
+        /// <summary> Makes our Object Older </summary>
+        /// <param name="years"> The parameter that indicates the amount the objett should age</param>
+        /// <returns> Returns the new age aging/becoming older</returns>
+        public int BecomeOlder(int years)
+        {
+
+            return Age + years;
+        }
     
     
     
@@ -65,6 +74,7 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
 
         public int TeamSize { get; private set; }
 
+        // Always check the constructor
         public Manager(string name, int age, string jobtitle, 
             int employeeID , int teamSize) 
             : base(name, age, jobtitle, employeeID)
@@ -83,7 +93,6 @@ namespace InheritanceBaseClassLecture.ConstuctorInheritance
 
 
     }
-
 
 
 

@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependendyInjectionUsingSet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectioInterface", "DependencyInjectioInterface\DependencyInjectioInterface.csproj", "{0AA65151-7B26-4776-AA1D-52BB0E2801E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInheritance", "MultipleInheritance\MultipleInheritance.csproj", "{52BE1595-8018-425A-BDE0-00B9333BBF8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{0AA65151-7B26-4776-AA1D-52BB0E2801E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA65151-7B26-4776-AA1D-52BB0E2801E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA65151-7B26-4776-AA1D-52BB0E2801E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BE1595-8018-425A-BDE0-00B9333BBF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BE1595-8018-425A-BDE0-00B9333BBF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BE1595-8018-425A-BDE0-00B9333BBF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BE1595-8018-425A-BDE0-00B9333BBF8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -49,11 +49,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleInheritance", "Mult
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructsApp", "StructsApp\StructsApp.csproj", "{B114FFC4-7508-447F-806E-DAF466037333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumsC", "EnumsC\EnumsC.csproj", "{8A512BC1-107F-4123-8B59-606310FABDE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumsC", "EnumsC\EnumsC.csproj", "{8A512BC1-107F-4123-8B59-606310FABDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeT", "DateTimeT\DateTimeT.csproj", "{0BD38636-113E-42A8-9A59-0F16F93E291D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeT", "DateTimeT\DateTimeT.csproj", "{0BD38636-113E-42A8-9A59-0F16F93E291D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathE", "MathE\MathE.csproj", "{8C6D6F46-72A8-45BF-822A-7A5B9D5DEF82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathE", "MathE\MathE.csproj", "{8C6D6F46-72A8-45BF-822A-7A5B9D5DEF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegEx", "RegEx\RegEx.csproj", "{F73EA996-B244-4524-9548-FBD4E5BB1D44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{8C6D6F46-72A8-45BF-822A-7A5B9D5DEF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6D6F46-72A8-45BF-822A-7A5B9D5DEF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6D6F46-72A8-45BF-822A-7A5B9D5DEF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73EA996-B244-4524-9548-FBD4E5BB1D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73EA996-B244-4524-9548-FBD4E5BB1D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73EA996-B244-4524-9548-FBD4E5BB1D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73EA996-B244-4524-9548-FBD4E5BB1D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
